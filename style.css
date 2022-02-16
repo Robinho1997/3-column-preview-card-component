@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: lexend deca;
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+.gridbox {
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(5px, 380px));
+   justify-content: center;
+  height: 100vh;
+   align-content: center;
+    
+    
+    
+    
+    
+}
+
+.gelbe-box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    
+
+}
+
+.hellblaue-box {
+background-color: hsl(184, 100%, 22%);
+padding: 3em;
+}
+
+.dunkelblaue-box {
+background-color: hsl(179, 100%, 13%);
+padding: 3em;
+border-top-right-radius: 35px;
+border-bottom-right-radius: 35px;
+}
+
+
+h1 {
+    font-family: big shoulders display;
+    font-size: 3rem;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    line-height: 1.5rem;
+    width: ;
+    font-size: 1.2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button {
+    padding: 1em 2em 1em 2em;
+    margin: 4em 0 1em 0;
+    border-radius: 30px;
+    border-style: none;
+    background-color: hsl(0, 0%, 95%);
+    font-family: lexend deca;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: solid;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.gelb {
+    color: hsl(31, 77%, 52%)
+}
+
+.hellblau {
+    color: hsl(184, 100%, 22%);
+}
+
+.dunkelblau {
+    color: hsl(179, 100%, 13%) ;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+body {
+ margin: 1em;
+}
+
+.gridbox {
+    margin-top: 5em;
+    height: auto;
+    margin-bottom: 5em;
+}
+
+.gelbe-box {
+    border-radius: 0;
+}
+
+.dunkelblaue-box {
+    border-radius: 0;
+}
+
+p {
+    width: auto;
+}
+}
+
+@media (max-width: 791px) {
+    .gelbe-box {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .dunkelblaue-box {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
